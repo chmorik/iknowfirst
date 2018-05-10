@@ -9,6 +9,26 @@ and save them to a structured database
 Every day you'll have new data with the stocks ticker 
 and predictions and its easier to query it this way
 
+You'll have stocks table in the database and its structure is
+
+0. id
+1. date 
+2. symbol 
+3. signal3
+4. pred3
+5. signal7
+6. pred7
+7. signal14
+8. pred14
+9. signal31
+9. pred31
+9. signal92
+9. pred92
+9. signal365
+9. pred365
+9. created_at
+9. updated_at
+
 To get it up and running:
 1. Clone the app
 2. Set up heroku app with database, rollbar, and mailgun add ons

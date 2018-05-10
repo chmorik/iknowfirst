@@ -3,8 +3,6 @@ class CreateStocks < ActiveRecord::Migration[5.0]
     create_table :stocks do |t|
       t.date :date
       t.string :symbol, limit: 5
-      t.float :sma5
-      t.float :close
       t.float :signal3
       t.float :pred3
       t.float :signal7
